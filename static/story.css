@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+
+
+
+body{
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Mate SC', serif;
+    text-align: center;
+    /* background-image: url(./diagon.jpg); */
+    background-size: cover;
+    
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+    grid-area: auto;
+    grid-gap: 25px;
+  
+    
+
+}
+
+.grid-item{
+    border: 5px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    width: auto;
+    color: black;
+    /* background-image: url(./plain.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px ;
+    border-radius: 25px;
+    font-weight: 100;
+    border: 2px solid black;
+    color: violet;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+span{
+    background: violet;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+    color: violet;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

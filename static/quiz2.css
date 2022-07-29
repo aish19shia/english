@@ -1,0 +1,115 @@
+body{
+    margin: 100px;
+    padding: 50px;
+    /* text-align: justify; */
+    background-image: url(./photo-1521310644901-8fafe02f1da5.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 30px ;
+    text-align: center;
+    color: white;
+}
+
+label{
+    font-size: 30px;
+
+    
+}
+
+.quiz{
+    /* border: tomato; */
+    padding: 20px 30px 50px 30px;
+    border-radius: 10px ;
+    border-width: 20px;
+    background-color: rgba(3.9, 20.7, 5.3, 0.85);
+    box-shadow: gray;
+
+    /* text-align: center; */
+    /* text-align: center; */
+
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 30px 25px 30px 25px;
+    border: brown;
+    border-radius: 20px;
+    border-style: groove;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 12px;
+    font-size: 25px;
+}
+
+.thank{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.thank h1{
+    font-size: 100px    ;
+}
+
+.btn{
+    text-align: center;
+    
+}
+
+
+img{
+    width: 40%;
+    height: 20%;
+    text-align: center;
+    display: block;
+    padding-left: 32%;
+    padding-right: 15%;
+}
+
+.label1{
+    background-color: lightgoldenrodyellow;
+    height: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+
+.submit{
+    text-align: center;
+    
+}
+
+.quiz2{
+    padding: 20px 30px 50px 30px;
+    border-radius: 10px ;
+    border-width: 100px;
+    background-color: rgba(3.9, 20.7, 5.3, 0.85);
+    box-shadow: gray;
+
+}
+
+.quiz3{
+    padding: 20px 30px 50px 30px;
+    border-radius: 10px ;
+    border-width: 20px;
+    background-color: rgba(6, 18.7, 9.3, 0.74);
+    box-shadow: gray;
+}

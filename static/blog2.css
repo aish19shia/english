@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Henny+Penny&display=swap');
+
+
+
+
+
+body{
+    background-image: url(./art.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10% 15% 10% 15%;
+    padding: 10px 15px 10px 15px;
+}
+
+h1{
+    font-size: 120px;
+    text-align: center;
+    color: red;
+    /* font-family: 'Henny Penny', cursive; */
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+p{
+   text-align: justify; 
+   font-size: 30px;
+   color: whitesmoke;
+}
+
+.para{
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    /* font-family: 'Homemade Apple', cursive; */
+    /* font-family: 'Mrs Saint Delafield', cursive; */
+    font-family: 'Kelly Slab', cursive;
+    /* line-break: normal; */
+    border-radius: 25px 15px 25px 15px;
+    border-width: 25px;
+    /* border-color: black; */
+    border-style: groove;
+    padding: 25px 20px 25px 20px;
+    border-color: burlywood;
+    background-color: antiquewhite  ;
+    margin: 10px 15px 10px 15px;
+}
+
+.para2{
+    font-style: italic;
+    font-size: 25px;
+    text-align: justify;
+    color: black;
+    /* font-family: 'Homemade Apple', cursive; */
+    font-family: 'Kelly Slab', cursive;
+    /* border-color: black; */
+    border-style: groove;
+    padding: 25px 20px 25px 20px;
+    border-color: burlywood;
+    background-color: antiquewhite  ;
+    border-width: 25px;
+    margin: 10px 15px 10px 15px;
+
+}
+
+h3{
+    text-align: right;
+    font-size: 30px;
+    font-style: italic;
+    color: lemonchiffon;
+}
+
+.img{
+    width: 30%;
+    height: 20%;
+    padding-left: 5%;
+}

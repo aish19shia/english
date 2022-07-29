@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+body{
+    margin: 3%; 
+padding: 5px;
+background-image: url(./ship4.avif);
+
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-size: 150px;
+    color: rgb(236, 226, 226);
+}
+
+h2{
+    text-align: center;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Arima Madurai', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.gridcontainer{
+    display: inline-grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto;
+    padding: 20px;
+    grid-area: auto ;
+    grid-gap: 80px;
+    padding: 5px;
+    
+}
+
+.griditem{
+    border: 5px solid black;
+    padding: 30px;
+    font-size: 10px;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    width: auto;
+    background-color: rgb(194, 98, 164);
+    box-shadow: 10px 8px lightsalmon;
+}
+
+.griditem h1{
+    text-align: center;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'PT Serif', serif;
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+    text-decoration: dashed;
+}
+
+p{
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+}
+
+.img{
+    text-align: center;
+}
+
+.gridcontainer2{
+    display: inline-grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 20px   ;
+    grid-area: auto ;
+    grid-gap: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+.griditem2{
+    border: 5px solid black;
+    padding: 30px;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 25px 20px 20px;
+    width: auto;
+    background-color: rgb(219, 137, 62);
+    box-shadow: 10px 8px lightsalmon;
+    text-decoration: dashed;
+}
+.griditem2 h1{
+    text-align: center;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'PT Serif', serif;
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+    text-decoration: dashed;
+}
+
+.ul{
+    text-align: justify;
+    font-size: 28px;
+    color: black;
+
+}
+
+.title{
+    color: white;
+}
+
+.cap{
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+}
+
+.heading{
+    text-align: left;
+}
+
+.list{  
+    text-align: justify;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
